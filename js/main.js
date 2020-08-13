@@ -10,18 +10,19 @@ $(document).ready(function() {
     const que2 = parseInt($("#question2").val());
     const que3 = parseInt($("#question3").val());
     const total = que1 + que2 + que3;
+    // console.log(total);
 
-    if (total <= 10) {
-      $("#result").text("kanye West");
+    if(total <= 10) {
+      $("#result").text("Doe");
     } else if (total >= 11 && total <=20) {
-      $("#result").text("Alesha Keys");
-    } else if (total >= 21 && total <= 20) {
-      $("#result").text("Bob Marley");
+      $("#result").text("Jane Does");
+    } else if (total >=21 && total <=30) {
+      $("#result").text("John Doe");
     } else {
       $("#result").text("Single 4 life");
-    }
+    }   
 
-    $("#name").text(name);
-    $("#result").show();
+    $("#nameResult").text(name);
+    $("#results").show();
   });
 });
