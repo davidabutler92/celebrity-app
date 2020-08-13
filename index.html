@@ -18,27 +18,29 @@
     </div> 
     <div class="container">
       <form id="survey">
-        <div class="form-group">
+        <div class="form-inline">
           <label for="name">What is your name?</label>
-          <input type="text" name="name" id="name" class="form-control" required>
-        </div>
-        <div class="form-group">
+          <input type="text" name="name" id="name" class="form-control text-center" required>
           <label for="age">What is your age?</label>
           <input type="text" name="age" id="age" class="form-control">
         </div>
-        <div class="form-group">
-          <label for="question1">On a scale of 1-10, how much do you enjoy comedy movies?</label>
-          <input type="text" name="question1" id="question1" min="1" max="10" class="form-control">
+        <div class="jumbotron">
+          <div class="form-group" id="first-form-group">
+            <label for="question1">On a scale of 1-10, how much do you enjoy comedy movies?</label>
+            <input type="text" name="question1" id="question1" min="1" max="10" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="question2">On a scale of 1-10, how interested are you in politics?</label>
+            <input type="text" name="question2" id="question2" min="1" max="10" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="question3">On a scale of 1-10, rate how much you like sports</label>
+            <input type="text" name="question3" id="question3" min="1" max="10" class="form-control" required>
+          </div>
+          <div class="button">
+            <button id="submit-btn" class="btn btn-primary"type="submit">Submit</button>   
+          </div>
         </div>
-        <div class="form-group">
-          <label for="question2">On a scale of 1-10, how interested are you in politics?</label>
-          <input type="text" name="question2" id="question2" min="1" max="10" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="question3">On a scale of 1-10, rate how much you like sports</label>
-          <input type="text" name="question3" id="question3" min="1" max="10" class="form-control">
-        </div class="button">
-          <button id="submit-btn" class="btn btn-default"type="submit">Submit</button>   
       </form>
     </div>
     <div id="results">
