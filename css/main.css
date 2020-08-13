@@ -65,3 +65,11 @@ body {
 .form-inline {
   text-align: center;
 }
+
+#name-color {
+  color: rgb(12, 103, 163);
+}
+
+#age-color {
+  color: rgb(12, 103, 163);
+}
