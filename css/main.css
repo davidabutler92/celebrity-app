@@ -1,3 +1,34 @@
 .jumbotron {
   margin-top: 20px;
 }
+
+#results {
+  display: none;
+}
+
+#copyright {
+  margin-top: 10%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  text-align: center;
+}
+
+#age {
+  width: 5%;
+}
+
+#question1 {
+  width: 5%;
+}
+
+#question2 {
+  width: 5%;
+}
+
+#question3 {
+  width: 5%;
+}
+
+#submit-btn {
+  padding-top: ;
+}
