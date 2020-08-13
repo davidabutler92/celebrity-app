@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+#name {
+  width: 20%;
+}
+
 #age {
   width: 5%;
 }
@@ -29,6 +33,6 @@
   width: 5%;
 }
 
-#submit-btn {
-  padding-top: ;
+.button {
+  padding-top: 5%;
 }
