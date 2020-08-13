@@ -1,10 +1,27 @@
 .jumbotron {
   margin-top: 20px;
+  background: url("https://img.pngio.com/soft-background-png-5-background-download-soft-backgrounds-png-1024_757.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
-/* #results {
+body {
+ color: white;
+}
+
+.text-muted {
+  color: white;
+}
+
+#results {
   display: none;
-} */
+}
+
+#results2 {
+  display: none;
+}
 
 #copyright {
   margin-top: 10%;

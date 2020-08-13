@@ -13,16 +13,20 @@ $(document).ready(function() {
     // console.log(total);
 
     if(total <= 10) {
-      $("#result").text("Doe");
+      $("#result").text("Beyonce");
+      $("#results").show();
     } else if (total >= 11 && total <=20) {
-      $("#result").text("Jane Does");
+      $("#result").text("Tom Hanks");
+      $("#results").show();
     } else if (total >=21 && total <=30) {
-      $("#result").text("John Doe");
+      $("#result").text("Donald Trump");
+      $("#results").show();
     } else {
-      $("#result").text("Single 4 life");
+      $("#result2").text("friendless");
+      $("#results2").show();
     }   
 
     $("#nameResult").text(name);
-    $("#results").show();
+    
   });
 });

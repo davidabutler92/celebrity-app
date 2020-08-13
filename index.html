@@ -11,8 +11,8 @@
     <div class="container">
       <div class="jumbotron">
         <h1>
-          Clebrity Dating App
-          <small class="text-muted">Which celeb are you most compatible with:</small>
+          Clebrity Friending App
+          <small class="text-muted">Which celeb will you be best friends with:</small>
         </h1>
       </div>
     </div> 
@@ -22,20 +22,20 @@
           <label for="name">What is your name?</label>
           <input type="text" name="name" id="name" class="form-control text-center" required>
           <label for="age">What is your age?</label>
-          <input type="text" name="age" id="age" class="form-control">
+          <input type="text" name="age" id="age" class="form-control text-center">
         </div>
         <div class="jumbotron">
           <div class="form-group" id="first-form-group">
             <label for="question1">On a scale of 1-10, how much do you enjoy comedy movies?</label>
-            <input type="text" name="question1" id="question1" min="1" max="10" class="form-control">
+            <input type="text" name="question1" id="question1" min="1" max="10" class="form-control text-center">
           </div>
           <div class="form-group">
             <label for="question2">On a scale of 1-10, how interested are you in politics?</label>
-            <input type="text" name="question2" id="question2" min="1" max="10" class="form-control">
+            <input type="text" name="question2" id="question2" min="1" max="10" class="form-control text-center">
           </div>
           <div class="form-group">
             <label for="question3">On a scale of 1-10, rate how much you like sports</label>
-            <input type="text" name="question3" id="question3" min="1" max="10" class="form-control">
+            <input type="text" name="question3" id="question3" min="1" max="10" class="form-control text-center">
           </div>
           <div class="button">
             <button id="submit-btn" class="btn btn-primary"type="submit">Submit</button>   
@@ -46,7 +46,14 @@
     <div id="results">
       <div class="container">
         <div class="jumbotron">
-          <h2>Based on your survey <span id="nameResult"></span> you would best be paired with <span id="result"></span>, </h2>
+          <h2>Based on your survey <span id="nameResult"></span> you will probably become friends with <span id="result"></span></h2>
+        </div>
+      </div>
+    </div>
+    <div id="results2">
+      <div class="container">
+        <div class="jumbotron">
+          <h2>Based on your survey <span id="nameResult"></span> you will probably be <span id="result2"></span>, sorry :(</h2>
         </div>
       </div>
     </div>
